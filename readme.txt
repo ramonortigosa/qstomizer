@@ -8,34 +8,19 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Wordpress/woocommerce plugin to connect a shop to the Qstomizer (Custom product designer) service.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+Qstomizer is an plugin for Wordpress / Woocommerce that allows you to add a visual custom product designer to your shop!.
+It runs as a SAS (Software as a service) and it connects to the Qstomizer server to embed a designer in a shop without writing a line of code.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
-
-A few notes about the sections above:
-
-*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
-
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
-
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
+- Qstomizer is the a product designer for wordpress/Woocommerce <b>fully responsive</b>. It fits your customers screen and can be used from PC, tablet and... smartphone. More than 50% of sales are made from a smartphone or cell phone. Do not lose customers!
+- <b>WEB2PRINT</b> ready!. Get a file to direct print the customer design without any manipulation. Qstomizer can create images up to 2400x1750px (in jpg or transparent PNG) of your customers designs. Save work and time!
+- <b>Automatic Image Filters</b>. You can apply automatic filters to the images uploaded by your customers to make effects like leather or wood engraving, black and white, colorize, find edges or a mix of them. You can not do this with any other product designer plugin for Woocommerce!
+- <b>Automatic Multilanguage</b>: The App detects the user language and automatically translates the App to English, Spanish, Italian, Portuguese, French and German. Sell Worldwide!
+- Made with the latest technology. CSS3 + HTML5 + Javascript. Fully compatible with any browser in the market
+- Qstomizer is made using the Amazon AWS infraestructure. Fast an reliable!
 
 == Installation ==
 
