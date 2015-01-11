@@ -1,0 +1,133 @@
+/* 
+    Document   : qsmz_admin
+    Created on : 02-oct-2013, 17:01:21
+    Author     : Qstomizer
+    Description:
+        Estilos para la parte administrativa de Qstomizer.
+*/
+
+root { 
+    display: block;
+}
+
+.divSeparador{
+    clear:both;
+    width:100%;
+}
+
+#qsmz11407_contenedor_order{
+    display:block;
+    width:100%;
+    height:auto;
+    /*border:1px solid #F00000;*/
+}
+
+.qsmz11407_mini_order_image{
+    display: block;
+    float:left;
+    width:120px;
+    height:120px;
+    margin:5px;
+    border:1px solid #dcdcdc;
+}
+
+.qsmz11407_mini_order_clipart{
+    display: block;
+    float:left;
+    width:50px;
+    height:50px;
+    margin-left:30px;
+    border:1px solid #dcdcdc;
+}
+
+.qsmz11407_image_container{
+    text-align:center;
+    float:left;
+    width:130px;
+    /*border:1px solid #F00000;*/
+}
+
+.qsmz11407_clipart_container{
+    text-align:center;
+    float:left;
+    width:110px;
+    /*border:1px solid #F00000;*/
+}
+
+.qsmz11407_div_productconfig{
+    position:relative;
+    float: left;
+    width:140px;
+    height:240px;
+    border:1px solid #ccc;
+    margin: 10px;
+    text-align: center;
+    border:#ccc solid 1px;
+    background-color: #FFF;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0, .2); 
+    -moz-box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+    box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+}
+.qsmz11407_div_productconfig p{
+    height: 35px;
+    padding-right:4px;
+    padding-left:4px;
+    overflow: scroll;
+}
+.qsmz11407_div_productconfig img{
+    position:relative;
+}
+
+.qsmz11407_div_productconfig a{
+    position:relative;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: left; 
+}
+
+#system-info-textarea, #system-license{
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+#qsmz_promo_notice_image{
+    float:left;
+    /*border:1px solid #F00;*/
+    width:214px;
+}
+
+#qsmz_promo_notice_text{
+    float:left;
+    /*border:1px solid #F00;*/
+    padding: 15px 0px 0px 25px;
+    max-width:900px;
+    font-size: 14px;
+}
+.qsmz_admin_cuadro{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.bgcolorNaranja{
+    background-color: #fbf0df;
+}
+
+.bgcolorVerde{
+    background-color: #dffbe3;
+}
+
+.bgcolorRojo{
+    background-color: #fbdfe2;
+}
+
+.rounded8{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px; 
+    border-radius: 8px;
+}
