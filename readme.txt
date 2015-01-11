@@ -24,76 +24,60 @@ It runs as a SAS (Software as a service) and it connects to the Qstomizer server
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+Minimum Requirements
+WordPress 3.8 or greater
+PHP version 5.2.4 or greater
+MySQL version 5.0 or greater
+WooCommerce 2.1.*
 
-e.g.
+This plugin requires you to have WooCommerce installed. You can download WooCommerce here: or install via the plugins section of your WordPress installation.
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+<b>Automatic installation</b>
+
+Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of Qstomizer, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
+
+In the search field type "Qstomizer" and click Search Plugins. Once you’ve found our plugin, you can view details about it such as the the point release, rating and description. Most importantly of course, you can install it by simply clicking “Install Now”.
+
+<b>Manual Installation</b>
+
+The manual installation method involves downloading our plugin and uploading it to your webserver via your favourite FTP application. The WordPress codex contains instructions on how to do this here.
+
+<b>Configuration</b>
+
+- Once installed, go to your WordPress dashboard, navigate to the Qstomizer menu and click on License. Go to <a href="https://www.qstomizer.com/cloud/signup.php">www.qstomizer.com</a> and create a new free account. 
+
+- In the upper menu, go to "Shops" and create a new shop to get the provate and public key of your shop.
+
+- Put these keys (private and public) in the license section of the Qstomizer Plugin. 
+
+- Click on "Activate Shop"
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+<b>Which kind of products can I customize with Qstomizer?</b>
 
-An answer to that question.
+Any produc is virtually able to be personalized with Qstomizer. It includes by default, templates for tshirts, business cards, cell cases, bags, mugs, metal buttons, flyer, cards, leather wallets, stickers... 
 
-= What about foo bar? =
+<b>Can I add my own custom products?</b>
+Yes, the web service includes the tools to create new templates online.
 
-Answer to foo bar dilemma.
+<b>Can my customers personalize products from a tablet or smartphone?</b>
+Yes, the product was made fully responsive. You can use it on any modern PC, laptop, tablet or smartphone.
+
+<b>Can I install it on an existing shop?</b>
+Yes, you can install it on any existing shop. It fits your theme and you do not have to change anything in your shop to install the plugin.
+
+<b>Where can I get more info/support?</b>
+visit <a href="http://www.qstomizer.com">www.qstomizer.com</a> for more information and support.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets 
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png` 
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Tshirt Example
+2. Cell phone case example.
+3. Mug with image upload example.
+4. Admin page example
 
 == Changelog ==
 
 = 1.0 =
-* A change since the previous version.
-* Another change.
-
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
-
-== Upgrade Notice ==
-
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
-
-== A brief Markdown Example ==
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+* Initial release
