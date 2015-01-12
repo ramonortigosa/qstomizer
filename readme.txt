@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: BigVanStudio
 Donate link: http://www.qstomizer.com/
-Tags: comments, spam
+Tags: diy print solution, editor, HTML5 WYSIWYG, qstomizer, t-shirt designer, web-to-print, web2print, webtoprint, wysiwyg, cell case designer,mugs designer, product designer
 Requires at least: 3.0.0
 Tested up to: 4.0.1
 Stable tag: 4.3
